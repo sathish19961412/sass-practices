@@ -1,11 +1,38 @@
-/* 
-Heading Title 
-Another Title
-2+2 = 4
-*/
-.heading-style {
-  color: #f80505;
-  font-size: 36px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #d700c5;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin: 40px;
+}
+
+.welcome-card h4 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.welcome-card p {
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.welcome-card .btn {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
 }
 
 /*# sourceMappingURL=main.css.map */
