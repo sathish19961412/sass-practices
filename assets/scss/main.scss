@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap');
 
+/*variables*/
+$app-color:#55c55b;
+$font-roboto:'Roboto', sans-serif;
+$font-lato:'Lato', sans-serif;
+/*end variables*/
 *
 {
     margin:0;
     padding:0;
 }
-
 html,
 body
 {
-    background:#d700c5;
+    background:$app-color;
  
-    font-family: 'Roboto', sans-serif;
+    font-family:$font-roboto;
 }
 
 .welcome-card
@@ -31,15 +36,22 @@ body
 
 {
     padding-bottom: 20px;
-    color:#000;
+    color:$app-color;
+    font-family:$font-lato;
 }
 
 .welcome-card .btn
 {
-    background:orangered;
+    $app-color:orange !global;
+    background:$app-color;
     color:#fff;
     padding:5px;
     border-radius: 5px;
     border:none;
+}
+
+.welcome-card .demo
+{
+    color:$app-color;
 }
 
