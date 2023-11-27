@@ -32,37 +32,39 @@ body
     font-family:$font-roboto;
 }
 
-/*Welcome-card*/
 .welcome-card
 {
     background:#fff;
     border-radius:10px;
     padding:20px 40px;
     margin:40px;
-
-    &__title
-    {
-        font-size: 24px;
-        padding-bottom: 10px;
-    }
-
-    &__desc
-    {
-        padding-bottom: 20px;
-        color:$app-color;
-        font-family:$font-lato;
-    }
-    
-    &__btn
-    {
-        $app-color:orange !global;
-        background:$app-color;
-        color:#fff;
-        padding:5px;
-        border-radius: 5px;
-        border:none;
-    }
 }
 
+.welcome-card h4
+{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.welcome-card p
 
+{
+    padding-bottom: 20px;
+    color:$app-color;
+    font-family:$font-lato;
+}
+
+.welcome-card .btn
+{
+    $app-color:orange !global;
+    background:$app-color;
+    color:#fff;
+    padding:5px;
+    border-radius: 5px;
+    border:none;
+}
+
+.welcome-card .demo
+{
+    color:$app-color;
+}
 
