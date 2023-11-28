@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap');
 
 /*Create Variables*/
-$app-color:#55c55b;
+$app-color:#45c55b;
 $font-roboto:'Roboto', sans-serif;
 $font-lato:'Lato', sans-serif;
 $font-size:14px;
@@ -16,6 +16,10 @@ $alert-color:(
 
 $darkmode:false;
 $themecolor:null;
+
+/*$app-color:#{$app-color}*/
+
+$profile-picture:"sathish";
 
 /*end Variables*/
 *
@@ -31,7 +35,9 @@ body
     //background:map-get($alert-color,"success");
     font-family:$font-roboto;
 }
-
+.profile-picture{
+    background:url(https://github.com/#{$profile-picture}.png);
+}
 /*Welcome-card*/
 .welcome-card
 {
