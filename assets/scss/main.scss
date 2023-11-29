@@ -22,11 +22,34 @@ $themecolor:null;
 $profile-picture:"sathish";
 
 /*end Variables*/
+
+/*Navigation*/
+ .header{
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+
+    &__logo{
+       font-size:24px;
+    }
+    &__menus{
+        display: flex;
+        list-style-type:none;
+    }
+    &__link{
+        margin-left: 20px;
+        font-size:16px;
+    }
+    &.active > a{
+        background: #ff9100;
+    }
+ }
+/*end Navigation*/
+
 *
 {
     margin:0;
     padding:0;
-    font-size:$font-size;
 }
 html,
 body
@@ -37,6 +60,10 @@ body
 }
 .profile-picture{
     background:url(https://github.com/#{$profile-picture}.png);
+}
+a{
+    text-decoration:none;
+    color:#000;
 }
 /*Welcome-card*/
 .welcome-card

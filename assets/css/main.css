@@ -3,10 +3,29 @@
 /*Create Variables*/
 /*$app-color:#45c55b*/
 /*end Variables*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.header__logo {
+  font-size: 24px;
+}
+.header__menus {
+  display: flex;
+  list-style-type: none;
+}
+.header__link {
+  margin-left: 20px;
+  font-size: 16px;
+}
+.header.active > a {
+  background: #ff9100;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-size: 14px;
 }
 
 html,
@@ -17,6 +36,11 @@ body {
 
 .profile-picture {
   background: url(https://github.com/sathish.png);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 /*Welcome-card*/
