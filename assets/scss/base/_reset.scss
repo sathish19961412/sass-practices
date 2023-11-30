@@ -8,12 +8,9 @@ html,
 body
 {
     background:$app-color;
-    //background:map-get($alert-color,"success");
     font-family:$font-roboto;
 }
-.profile-picture{
-    background:url(https://github.com/#{$profile-picture}.png);
-}
+
 a{
     text-decoration:none;
     color:#000;
