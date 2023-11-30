@@ -1,28 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap");
-/*Create Variables*/
-/*$app-color:#45c55b*/
-/*end Variables*/
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-}
-.header__logo {
-  font-size: 24px;
-}
-.header__menus {
-  display: flex;
-  list-style-type: none;
-}
-.header__link {
-  margin-left: 20px;
-  font-size: 16px;
-}
-.header.active > a {
-  background: #ff9100;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +19,28 @@ a {
   color: #000;
 }
 
+/*Navigation*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.header__logo {
+  font-size: 24px;
+}
+.header__menus {
+  display: flex;
+  list-style-type: none;
+}
+.header__link {
+  margin-left: 20px;
+  font-size: 16px;
+}
+.header.active > a {
+  background: #ff9100;
+}
+
+/*end Navigation*/
 /*Welcome-card*/
 .welcome-card {
   background: #fff;
